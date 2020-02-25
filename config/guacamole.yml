@@ -1,0 +1,15 @@
+development:
+  protocol: 'http'
+  host: 'localhost'
+  port: 8529
+  password: ''
+  username: ''
+  database: '<%= database_name || app_name %>_development'
+
+test:
+  protocol: 'http'
+  host: 'localhost'
+  port: 8529
+  password: ''
+  username: ''
+  database: '<%= database_name || app_name %>_test'
